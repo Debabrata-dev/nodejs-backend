@@ -1,0 +1,15 @@
+Node js Streams:-
+Stream are object that let you read data from a sourece or write data to a dstination in continous fashion there are 4 type of stream 
+1-Readable
+2-Writeable
+3-Duplex
+4-Transform
+
+Readable Stream:-
+1-it is use to read the data from the sources hence it is know as reac able stream .
+2-To read the data we need readable Events 
+types of events:-
+1-data events:-This event fire when their is a data is going to read 
+err:-This event fire when their any kind of error .
+end:-This eent fire when theris no more data to read .
+close:-This event fire when we want ot close all the event .
